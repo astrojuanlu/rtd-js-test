@@ -18,5 +18,6 @@ setuptools.setup(
         "ipywidgets",
         "notebook",
         "nbsphinx",
+        "jupyter_sphinx",
     ]
 )

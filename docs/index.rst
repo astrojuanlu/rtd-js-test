@@ -9,3 +9,4 @@ Welcome to RTD JavaScript Test's documentation!
    Connected - require.js Hack.ipynb
    Not Connected - No Hack.ipynb
    Not Connected - require.js Hack.ipynb
+   Widget.ipynb
