@@ -1,2 +1,3 @@
 # rtd-js-test
-Test for https://github.com/rtfd/sphinx_rtd_theme/pull/545
+
+Test for https://github.com/rtfd/readthedocs.org/issues/4367.

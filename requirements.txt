@@ -1,4 +1,0 @@
-plotly
-ipywidgets
-notebook
-nbsphinx
