@@ -1,0 +1,1 @@
+https://github.com/rtfd/sphinx_rtd_theme/archive/master.zip
