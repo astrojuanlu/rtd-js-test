@@ -78,6 +78,10 @@ pygments_style = None
 #
 html_theme = "sphinx_rtd_theme"
 
+# Custom JavaScript
+def setup(app):
+    app.add_javascript('https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js')
+
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
 # documentation.
