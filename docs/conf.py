@@ -40,7 +40,6 @@ release = ''
 # ones.
 extensions = [
     "nbsphinx",
-    "jupyter_sphinx.embed_widgets",
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -70,6 +69,10 @@ exclude_patterns = ['_build', '**.ipynb_checkpoints']
 # The name of the Pygments (syntax highlighting) style to use.
 pygments_style = None
 
+def setup(app):
+    # https://docs.readthedocs.io/en/latest/guides/adding-custom-css.html
+    # https://www.sphinx-doc.org/en/master/extdev/appapi.html#sphinx.application.Sphinx.add_js_file
+    app.add_js_file('https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.min.js')
 
 # -- Options for HTML output -------------------------------------------------
 
