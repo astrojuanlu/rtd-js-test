@@ -19,8 +19,8 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'RTD JavaScript Test'
-copyright = '2018, Juan Luis Cano'
+project = 'RTD Plotly Test'
+copyright = '2019, Juan Luis Cano, "the Plotly guy"'
 author = 'Juan Luis Cano'
 
 # The short X.Y version
